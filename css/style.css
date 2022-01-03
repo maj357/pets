@@ -1262,6 +1262,7 @@ textarea.input {
 .info__box {
   min-width: 47.5rem;
   padding: 1.25rem;
+  -webkit-clip-path: polygon(0% 0%, 91% 0%, 100% 50%, 91% 100%, 0% 100%);
   clip-path: polygon(0% 0%, 91% 0%, 100% 50%, 91% 100%, 0% 100%);
   background-color: #d4df6d;
   border-radius: 1.25rem;
@@ -1283,6 +1284,7 @@ textarea.input {
 }
 @media (max-width: 1100px) {
   .info__box {
+    -webkit-clip-path: none;
     clip-path: none;
     min-width: 18.75rem;
   }
@@ -1349,6 +1351,7 @@ textarea.input {
   background-color: #fff;
   width: 120px;
   height: 100%;
+  -webkit-clip-path: polygon(41% -10%, 48% 103%, 101% 50%);
   clip-path: polygon(41% -10%, 48% 103%, 101% 50%);
 }
 @media (max-width: 1100px) {
