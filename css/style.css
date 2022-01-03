@@ -556,6 +556,7 @@ textarea.input {
 }
 
 .main-section {
+  position: relative;
   background: url("../img/main-section/main-bg.jpg") top right/cover no-repeat;
 }
 @media (min-width: 73.25em) {
@@ -1060,6 +1061,7 @@ textarea.input {
 }
 
 .advantage {
+  position: relative;
   background: url("../img/advantage/advantage-bg.jpg") center/cover no-repeat;
 }
 @media (min-width: 90em) {
