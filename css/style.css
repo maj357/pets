@@ -1286,7 +1286,7 @@ textarea.input {
   .info__box {
     -webkit-clip-path: none;
     clip-path: none;
-    min-width: 18.75rem;
+    min-width: 18.75rem !important;
   }
 }
 @media (max-width: 29.99875em) and (min-width: 73.25em) {
